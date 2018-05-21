@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fonts/Lato-Light.ttf");
+}
+@font-face {
+  font-family: "Lato-Black";
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-family: "Lato-Thin";
+  src: url("../fonts/Lato-Hairline.ttf");
+}
+
+.font-weight-light {
+  font-family: "Lato-Light";
+}
+
+.font-weight-thin {
+  font-family: "Lato-Thin";
+}
+
+.font-weight-black {
+  font-family: "Lato-Black";
+}
+
+.font-weight-bold {
+  font-family: "Lato-Bold";
+}
+
+.text-red {
+  color: #ff6131;
+}
+
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
+  font-family: "Lato";
+}
+
+.navbar {
+  background: #282828;
+  padding: 22px 10px;
+
+  .navbar-content {
+    padding-left: 32px;
+    padding-right: 32px;
+
+    .navbar-brand {
+      text-transform: uppercase;
+      font-size: 50px;
+      font-family: "Lato-Light";
+      color: rgb(255, 255, 255);
+      letter-spacing: -2px;
+
+      .font-weight-bold {
+        font-family: "Lato-Black";
+      }
+
+      .dot {
+        position: relative;
+        right: 4px;
+      }
+    }
+
+    .navbar-nav {
+      .nav-item {
+        font-size: 16px;
+        font-family: "Lato";
+        color: rgb(255, 255, 255);
+        padding-left: 16px;
+        padding-right: 16px;
+        letter-spacing: -0.5px;
+
+        &:last-of-type {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.header-section {
+  background: #282828;
+  color: rgb(255, 255, 255);
+  padding-top: 66px;
+  padding-bottom: 66px;
+
+  h1 {
+    font-size: 120px;
+    font-family: "Lato-Black";
+    letter-spacing: -6.5px;
+    text-transform: uppercase;
+    line-height: 110px;
+    // top: -34px;
+    //   position: relative;
+  }
+
+  h3 {
+    font-size: 42px;
+    line-height: 1;
+    margin-top: 32px;
+    letter-spacing: -2.3px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 1.4;
+    padding-left: 5px;
+    letter-spacing: -0.1px;
+  }
+
+  .phone-content {
+    margin-bottom: -300px;
+    margin-top: -61px;
+    transform: translate(-54px, 0);
+  }
+}
