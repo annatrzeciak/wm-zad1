@@ -124,3 +124,75 @@
     transform: translate(-54px, 0);
   }
 }
+
+.what-we-do-section {
+  padding-top: 74px;
+  padding-bottom: 20px;
+  color: rgb(78, 78, 78);
+
+  h2 {
+    font-size: 42px;
+    letter-spacing: -2.4px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 55px;
+  }
+
+  .what-we-do-item {
+    margin-bottom: 48px;
+
+    h5 {
+      font-size: 18px;
+      color: rgb(53, 53, 53);
+      text-transform: uppercase;
+      font-family: "Lato-Black";
+      margin-top: 35px;
+
+    }
+
+    p {
+      font-size: 14px;
+      color: rgb(53, 53, 53);
+      font-family: "Lato-Light";
+    }
+    i{
+      height: 155px;
+      width: 100%;
+      background: #ff6131;
+      display: block;
+      &.refreshing{
+        background-image: url('../images/refresh.png');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &.coffee{
+        background-image: url('../images/coffee.png');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &.file{
+        background-image: url('../images/file.png');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &.disc{
+        background-image: url('../images/disc.png');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &.heart{
+        background-image: url('../images/heart.png');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &.leaf{
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}

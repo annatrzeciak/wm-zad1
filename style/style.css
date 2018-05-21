@@ -29,4 +29,18 @@
 .header-section p { font-size: 18px; margin-top: 25px; line-height: 1.4; padding-left: 5px; letter-spacing: -0.1px; }
 .header-section .phone-content { margin-bottom: -300px; margin-top: -61px; transform: translate(-54px, 0); }
 
+.what-we-do-section { padding-top: 74px; padding-bottom: 20px; color: #4e4e4e; }
+.what-we-do-section h2 { font-size: 42px; letter-spacing: -2.4px; margin-bottom: 0; }
+.what-we-do-section p { font-size: 18px; margin-bottom: 55px; }
+.what-we-do-section .what-we-do-item { margin-bottom: 48px; }
+.what-we-do-section .what-we-do-item h5 { font-size: 18px; color: #353535; text-transform: uppercase; font-family: "Lato-Black"; margin-top: 35px; }
+.what-we-do-section .what-we-do-item p { font-size: 14px; color: #353535; font-family: "Lato-Light"; }
+.what-we-do-section .what-we-do-item i { height: 155px; width: 100%; background: #ff6131; display: block; }
+.what-we-do-section .what-we-do-item i.refreshing { background-image: url("../images/refresh.png"); background-repeat: no-repeat; background-position: center; }
+.what-we-do-section .what-we-do-item i.coffee { background-image: url("../images/coffee.png"); background-repeat: no-repeat; background-position: center; }
+.what-we-do-section .what-we-do-item i.file { background-image: url("../images/file.png"); background-repeat: no-repeat; background-position: center; }
+.what-we-do-section .what-we-do-item i.disc { background-image: url("../images/disc.png"); background-repeat: no-repeat; background-position: center; }
+.what-we-do-section .what-we-do-item i.heart { background-image: url("../images/heart.png"); background-repeat: no-repeat; background-position: center; }
+.what-we-do-section .what-we-do-item i.leaf { background-image: url("../images/leaf.png"); background-repeat: no-repeat; background-position: center; }
+
 /*# sourceMappingURL=style.css.map */
