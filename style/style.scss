@@ -45,6 +45,10 @@
   font-family: "Lato";
 }
 
+.row-header {
+  margin-right: -40px;
+}
+
 .navbar {
   background: #282828;
   padding: 22px 10px;
@@ -91,7 +95,7 @@
   background: #282828;
   color: rgb(255, 255, 255);
   padding-top: 66px;
-  padding-bottom: 66px;
+  padding-bottom: 103px;
 
   h1 {
     font-size: 120px;
@@ -119,9 +123,13 @@
   }
 
   .phone-content {
-    margin-bottom: -300px;
-    margin-top: -61px;
-    transform: translate(-54px, 0);
+    margin-bottom: -30.3%;
+    margin-top: -8.5%;
+    background-image: url("../images/phone.png");
+    background-size: 460px 784px;
+    background-position: right -27px top 100%;
+    background-repeat: no-repeat;
+    padding-right: 40px;
   }
 }
 
@@ -150,7 +158,6 @@
       text-transform: uppercase;
       font-family: "Lato-Black";
       margin-top: 35px;
-
     }
 
     p {
@@ -158,41 +165,114 @@
       color: rgb(53, 53, 53);
       font-family: "Lato-Light";
     }
-    i{
+
+    i {
       height: 155px;
       width: 100%;
+      max-width: 110px;
       background: #ff6131;
       display: block;
-      &.refreshing{
-        background-image: url('../images/refresh.png');
+
+      &.refreshing {
+        background-image: url("../images/refresh.png");
         background-repeat: no-repeat;
         background-position: center;
       }
-      &.coffee{
-        background-image: url('../images/coffee.png');
+
+      &.coffee {
+        background-image: url("../images/coffee.png");
         background-repeat: no-repeat;
         background-position: center;
       }
-      &.file{
-        background-image: url('../images/file.png');
+
+      &.file {
+        background-image: url("../images/file.png");
         background-repeat: no-repeat;
         background-position: center;
       }
-      &.disc{
-        background-image: url('../images/disc.png');
+
+      &.disc {
+        background-image: url("../images/disc.png");
         background-repeat: no-repeat;
         background-position: center;
       }
-      &.heart{
-        background-image: url('../images/heart.png');
+
+      &.heart {
+        background-image: url("../images/heart.png");
         background-repeat: no-repeat;
         background-position: center;
       }
-      &.leaf{
-        background-image: url('../images/leaf.png');
+
+      &.leaf {
+        background-image: url("../images/leaf.png");
         background-repeat: no-repeat;
         background-position: center;
       }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar .navbar-content .navbar-brand {
+    font-size: 32px;
+  }
+
+  .header-section {
+    h1 {
+      font-size: 70px;
+      letter-spacing: -4px;
+      line-height: 65px;
+    }
+
+    h3 {
+      font-size: 30px;
+      line-height: 1;
+      margin-top: 20px;
+      letter-spacing: -1.5px;
+    }
+
+    p {
+      font-size: 15px;
+      margin-top: 20px;
+      line-height: 1.4;
+      padding-left: 5px;
+      letter-spacing: 0;
+    }
+
+    .phone-content {
+      background-size: contain;
+      background-position: right -8px top 100%;
+    }
+  }
+}
+@media screen and (max-width:767px) {
+  .navbar {
+    .navbar-content {
+      .navbar-nav {
+        .nav-item {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  .header-section {
+    .row-header {
+      margin-right: -15px;
+    }
+
+    .phone-content {
+      background-position: center;
+      height: 600px;
+      margin-bottom: -220px;
+      margin-top: 20px;
+    }
+  }
+}
+@media screen and (max-width:385px) {
+  .header-section {
+    .phone-content {
+      height: 500px;
     }
   }
 }
