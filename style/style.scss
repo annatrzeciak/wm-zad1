@@ -1,48 +1,29 @@
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Regular.ttf");
-}
-@font-face {
-  font-family: "Lato-Bold";
-  src: url("../fonts/Lato-Bold.ttf");
-}
-@font-face {
-  font-family: "Lato-Light";
-  src: url("../fonts/Lato-Light.ttf");
-}
-@font-face {
-  font-family: "Lato-Black";
-  src: url("../fonts/Lato-Black.ttf");
-}
-@font-face {
-  font-family: "Lato-Thin";
-  src: url("../fonts/Lato-Hairline.ttf");
-}
+@import './variables.scss';
 
 .font-weight-light {
-  font-family: "Lato-Light";
+  font-family: $font-light;
 }
 
 .font-weight-thin {
-  font-family: "Lato-Thin";
+  font-family: $font-thin;
 }
 
 .font-weight-black {
-  font-family: "Lato-Black";
+  font-family: $font-black;
 }
 
 .font-weight-bold {
-  font-family: "Lato-Bold";
+  font-family: $font-bold;
 }
 
 .text-red {
-  color: #ff6131;
+  color: $red;
 }
 
 .container {
   padding-left: 32px;
   padding-right: 32px;
-  font-family: "Lato";
+  font-family: $font-normal;
 }
 
 .row-header {
@@ -50,7 +31,7 @@
 }
 
 .navbar {
-  background: #282828;
+  background: $dark;
   padding: 22px 10px;
 
   .navbar-content {
@@ -60,12 +41,12 @@
     .navbar-brand {
       text-transform: uppercase;
       font-size: 50px;
-      font-family: "Lato-Light";
-      color: rgb(255, 255, 255);
+      font-family: $font-light;
+      color: $white;
       letter-spacing: -2px;
 
       .font-weight-bold {
-        font-family: "Lato-Black";
+        font-family: $font-black;
       }
 
       .dot {
@@ -77,8 +58,8 @@
     .navbar-nav {
       .nav-item {
         font-size: 16px;
-        font-family: "Lato";
-        color: rgb(255, 255, 255);
+        font-family: $font-normal;
+        color: $white;
         padding-left: 16px;
         padding-right: 16px;
         letter-spacing: -0.5px;
@@ -92,14 +73,14 @@
 }
 
 .header-section {
-  background: #282828;
-  color: rgb(255, 255, 255);
+  background: $dark;
+  color: $white;
   padding-top: 66px;
   padding-bottom: 103px;
 
   h1 {
     font-size: 120px;
-    font-family: "Lato-Black";
+    font-family: $font-black;
     letter-spacing: -6.5px;
     text-transform: uppercase;
     line-height: 110px;
@@ -156,21 +137,21 @@
       font-size: 18px;
       color: rgb(53, 53, 53);
       text-transform: uppercase;
-      font-family: "Lato-Black";
+      font-family: $font-black;
       margin-top: 35px;
     }
 
     p {
       font-size: 14px;
       color: rgb(53, 53, 53);
-      font-family: "Lato-Light";
+      font-family: $font-light;
     }
 
     i {
       height: 155px;
       width: 100%;
       max-width: 110px;
-      background: #ff6131;
+      background: $red;
       display: block;
 
       &.refreshing {

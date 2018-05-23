@@ -19,13 +19,13 @@
 
 .navbar { background: #282828; padding: 22px 10px; }
 .navbar .navbar-content { padding-left: 32px; padding-right: 32px; }
-.navbar .navbar-content .navbar-brand { text-transform: uppercase; font-size: 50px; font-family: "Lato-Light"; color: white; letter-spacing: -2px; }
+.navbar .navbar-content .navbar-brand { text-transform: uppercase; font-size: 50px; font-family: "Lato-Light"; color: #fff; letter-spacing: -2px; }
 .navbar .navbar-content .navbar-brand .font-weight-bold { font-family: "Lato-Black"; }
 .navbar .navbar-content .navbar-brand .dot { position: relative; right: 4px; }
-.navbar .navbar-content .navbar-nav .nav-item { font-size: 16px; font-family: "Lato"; color: white; padding-left: 16px; padding-right: 16px; letter-spacing: -0.5px; }
+.navbar .navbar-content .navbar-nav .nav-item { font-size: 16px; font-family: "Lato"; color: #fff; padding-left: 16px; padding-right: 16px; letter-spacing: -0.5px; }
 .navbar .navbar-content .navbar-nav .nav-item:last-of-type { padding-right: 0; }
 
-.header-section { background: #282828; color: white; padding-top: 66px; padding-bottom: 103px; }
+.header-section { background: #282828; color: #fff; padding-top: 66px; padding-bottom: 103px; }
 .header-section h1 { font-size: 120px; font-family: "Lato-Black"; letter-spacing: -6.5px; text-transform: uppercase; line-height: 110px; }
 .header-section h3 { font-size: 42px; line-height: 1; margin-top: 32px; letter-spacing: -2.3px; }
 .header-section p { font-size: 18px; margin-top: 25px; line-height: 1.4; padding-left: 5px; letter-spacing: -0.1px; }
